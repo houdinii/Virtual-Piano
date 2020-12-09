@@ -1,0 +1,65 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+body{
+  background-color: antiquewhite;
+  background-image: url("./images/background.jpg");
+}
+p {
+  font-family: 'Roboto Slab', serif;
+}
+.white-keys p {
+  position: relative;
+  top: 80%;
+}
+
+.black-keys p {
+  position: relative;
+  top: 60%;
+}
+
+.white-keys kbd{
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  width: 4%;
+  min-height: 200px;
+  height: 40%;
+  border: 3px solid;
+  /*text-align: center;*/
+  /*padding-top: 8%;*/
+  margin: 0;
+}
+#A{left: 33%;}
+#S{left: 37.5%;}
+#D{left: 42%;}
+#F{left: 46.5%;}
+#G{left: 51%;}
+#H{left: 55.5%;}
+#J{left: 60%;}
+
+.black-keys kbd{
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  background-color: black;
+  color: white;
+  width: 2%;
+  min-height: 90px;
+  height: 22vh;
+  z-index: 0;
+  /*border: 3px solid;*/
+  text-align: center;
+}
+#W{left: 36.35%;}
+#E{left: 40.85%;}
+#T{left: 49.85%;}
+#Y{left: 54.35%;}
+#U{left: 58.85%;}
+
+div {
+  margin: auto;
+  padding: 15vh 0;
+  text-align: center;
+}
